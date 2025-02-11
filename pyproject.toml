@@ -2,7 +2,7 @@
 name = "template"
 version = "0.1.0"
 description = ""
-authors = ["User <user@example.com>"]
+authors = ["Polymorphisma <shrawansunar.6@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

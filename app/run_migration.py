@@ -1,10 +1,5 @@
-import alembic.config
+import subprocess
 
 
 def run_migration():
-    alembicArgs = [
-        '--raiseerr',
-        'upgrade', 'head',
-    ]
-
-    alembic.config.main(argv=alembicArgs)
+    subprocess.run(["alembic", "upgrade", "head"], check=True)
